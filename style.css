@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f0f0f0;
+
+}
+
+header {
+    background-image: url(https://1.bp.blogspot.com/-7BIXQYyHQKQ/UcM8IHU3bVI/AAAAAAAAALE/2GHxhwhWwYk/s1600/Dia+de+la+musica.jpg);
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.music-genre {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.music-genre img {
+    width: 200px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.right-image {
+    order: 2;
+    margin-left: 20px;
+}
+
+.left-image {
+    order: -1;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #070707;
+    padding: 10px;
+}
+/* Responsividad */
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+}
